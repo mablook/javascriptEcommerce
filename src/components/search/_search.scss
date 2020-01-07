@@ -1,0 +1,34 @@
+
+/*******************************************************************************
+ *
+ *      Product           : Mercedes.io
+ *      Developer         : Marcelo Bossle
+ *      ServiceModulePart : Portal
+ *      File              : Search bar & input style
+ *
+ ******************************************************************************/
+
+#search{
+  font-size: 14px;
+  color: #333333;
+  border: 1px solid #333333;
+  padding: 10px;
+  width: 220px;
+  height: 35px;
+}
+
+.search-bar{
+  width: $container-width;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 0px 20px 0px 16px;
+  margin: 20px 0px 20px 0px;
+
+}
+
+.search-bar:first-child{
+  font-size: 24px;
+}

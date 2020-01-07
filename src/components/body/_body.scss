@@ -1,0 +1,24 @@
+
+
+/*******************************************************************************
+ *
+ *      Product           : Mercedes.io
+ *      Developer         : Marcelo Bossle
+ *      ServiceModulePart : Portal
+ *      File              : Body style
+ *
+ ******************************************************************************/
+
+.container {
+  position: relative;
+  list-style: none;
+  width: $container-width;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: start
+}

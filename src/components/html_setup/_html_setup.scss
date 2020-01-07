@@ -1,0 +1,66 @@
+/*******************************************************************************
+ *
+ *      Product           : Mercedes.io
+ *      Developer         : Marcelo Bossle
+ *      ServiceModulePart : Portal
+ *      File              : HTML initialize elements
+ *
+ ******************************************************************************/
+
+body,
+html {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+
+header {
+  background-color: #000;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  color: #333333;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+h2{
+  font-size: 22px;
+    font-weight: 100;
+    padding: 5px 0px 10px 0px;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+content{
+  flex: auto;
+  display: flex;
+  background-color: #fff;
+  justify-content: center;
+}
+
+footer {
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+}

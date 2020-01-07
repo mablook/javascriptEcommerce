@@ -1,0 +1,66 @@
+
+/*******************************************************************************
+ *
+ *      Product           : Mercedes.io
+ *      Developer         : Marcelo Bossle
+ *      ServiceModulePart : Portal
+ *      File              : All page overlays
+ *
+ ******************************************************************************/
+
+  .on-search::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    background-image: url("assets/spinner.svg");
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: 30px 30px;
+    opacity: 1;
+}
+
+.no-result::after {
+  content: "No cars with that name were found :(";
+  position: absolute;
+  font-size: 25px;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  background: #fff;
+  opacity: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width:1023px) {
+
+  body::after {
+    content: "I look muth better in a wide window! ;)";
+    color: #fff;
+    position: absolute;
+    font-size: 25px;
+    font-weight: 100;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #item_list{
+    display: none;
+  }
+
+}

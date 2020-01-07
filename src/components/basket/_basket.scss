@@ -1,0 +1,28 @@
+
+/*******************************************************************************
+ *
+ *      Product           : Mercedes.io
+ *      Developer         : Marcelo Bossle
+ *      ServiceModulePart : Portal
+ *      File              : Basket Styles scss
+ *
+ ******************************************************************************/
+
+#cart-total{
+  font-size: 18px;
+}
+
+#cart-total::after{
+  content: "";
+  margin-top: -10px;
+  margin: -10px 0px 0px 10px;
+  width: 15px;
+  background: rgba(250,250,250,1);
+  background-image: url("assets/shoppingBag.png");
+  background-color:#000;
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-size: 20px 20px;
+}
+
+
