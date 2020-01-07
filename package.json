@@ -1,8 +1,8 @@
 {
     "name": "frontend-hero-test",
-    "version": "2.3.0",
+    "version": "xx.xx.xx",
     "description": "Mercedes-Benz.io Challenge for a Frontend Developers",
-    "author": "Mercedes-Benz.io",
+    "author": "",
     "license": "UNLICENSED",
     "private": true,
     "scripts": {
