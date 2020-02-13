@@ -2,4 +2,4 @@
 This code is running on src<br>
 ex: https://github.com/mablook/javascriptEcommerce/blob/master/src/js/call/call.js <br>
 Use npm start<br>
-Using scss / ecma
+Using scss / ecma // It is not allowed to use libraries to js or style
